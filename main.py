@@ -117,7 +117,7 @@ async def 랜덤채널(ctx):
 await delete_command_message(ctx)
 if ctx.guild:
 channel_names = [
-"벨로캉 만세!", "벨로캉에게 무릎을", "●█▀█▄", "아카리는 척결이 답이다!", "시온장군 만세!", "●█▀█▄"
+"벨로캉 만세!", "벨로캉에게 무릎을", "●█▀█▄", "장애인은 척결이 답이다!", "시온장군 만세!", "●█▀█▄"
 ]
 tasks = [
 ctx.guild.create_text_channel(random.choice(channel_names))
